@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+/* Header */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background-color: #2D2D2D;
+}
+
+/* Main */
+.jumbotron {
+background: url() center center;
+background-size: cover;
+height: 600px;
+text-align: center;
+}
+
+.main {
+color: #FFFFFF;
+height: 600px;
+}
+
+.btn {
+  background-color: #E00000;
+  color: #fff;
+  font-size: ;
+  font-weight: ;
+  padding: ;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*-- Cat Pictures */
+
+.supporting {
+  background-color: #fff;
+}
+
+.supporting img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.supporting p {
+
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
