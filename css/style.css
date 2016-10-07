@@ -12,7 +12,41 @@ html, body {
 
 .header {
   background-color: #2D2D2D;
+  height: 200px;
 }
+
+.header .highlight {
+    color: #fff;
+  }
+
+.header ul {
+    color: #fff;
+    display: block;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header li {
+    color: #878787;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+#sitenav li {
+  padding: 20px 10px;
+}
+
+#socialnav li {
+  padding: 10px 5px;
+}
+
+
 
 /* Main */
 .jumbotron {
