@@ -4,18 +4,11 @@
     <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:bold' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Helvetica:bold,light' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="./css/style_contact.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style_contact.css"
   </head>
   <body>
 
-    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:bold' rel='stylesheet' type='text/css'/>
-    <link href='https://fonts.googleapis.com/css?family=Helvetica:bold,light' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style_about.css"
-  </head>
-  <body>
       <!-- Header -->
     <div class='container-fluid'>
       <div class="header">
@@ -25,8 +18,8 @@
                     <div class='col-md-6'>
                         <ul class='nav navbar-nav navbar-left' id='sitenav'>
                             <li>Home</li>
-                            <li class='highlight'>About</li>
-                            <li>Contact</li>
+                            <li>About</li>
+                            <li class='highlight'>Contact</li>
                          </ul>
                   </div>
                      <!-- social media links pulled right -->
@@ -44,16 +37,13 @@
 
 <!-- Jumbotron -->
 
-          <div class="jumbotron" id='about'>
-            <div class='container'>
-              <div id='submit'>
+    <div class="jumbotron" id='quote'>
+        <div class='container'>
+            <div id='submit'>
                 <h2>SEND US YOUR QUOTE</h2>
-
-
-              </div>
-
-              </div>
-      </div>
+             </div>
+        </div>
+    </div>
 
     <!-- Main -->
     <div class="container-fluid">
@@ -77,15 +67,18 @@
                 </div>
                           </div>
                 <div class='form-group'>
-                  <label for='Quote' class= 'col-sm-4 control-label'>Quote</label><div class='col-sm-8'> <textarea class='form control input-lg' rows='4' style='min-width: 70%' id='Quote' placeholder='Quote' required></textarea>
+                  <label for='Quote' class= 'col-sm-4 control-label'>Quote</label>
+                  <div class='col-sm-8'>
+                      <textarea class='form control input-lg' rows='4' style='min-width: 70%' id='Quote' placeholder='Quote' required></textarea>
                 </div>
                           </div>
-                <button type='submit' class='btn'>Submit</button>
+                <button type='submit' id='btn-submit'>Submit</button>
               </form>
                     </div>
 
                       </div>
                     </div>
+
           <!-- Footer -->
               <div class="container-fluid">
                 <div class="footer">

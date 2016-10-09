@@ -11,51 +11,14 @@ html, body {
   padding: 0;
 }
 
-.header {
-  background-color: #2D2D2D;
-  margin: 0;
-  /*height: 200px;*/
-}
-
-.header .highlight {
-    color: #fff;
-  }
-
-.header ul {
-    color: #fff;
-    display: block;
-    list-style: none;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-
-}
-
-.header li {
-    color: #878787;
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    font-size: 18px;
-}
-
-#sitenav li {
-  padding: 20px 10px;
-}
-
-#socialnav li {
-  padding: 10px 5px;
-}
-
 /* Jumbotron */
-#about {
-background: url('http://i.imgur.com/Y8RMIt3.png') center center;
-background-repeat: no-repeat;
-background-size: 110%;
-margin: 20px;
-height: 250vh;
-position: relative;
+#quote {
+    background: url('http://i.imgur.com/Y8RMIt3.png') center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 20px;
+    height: 100vh;
+    position: relative;
 }
 
 #submit {
@@ -64,9 +27,9 @@ position: relative;
     border: 7px solid black;
     background: url('http://i.imgur.com/Y8RMIt3.png');
     background-attachment: fixed;
-  position: absolute;
-  margin-top: 80px;
-  margin-left: 150px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 170px;
 }
 
 #submit h2 {
@@ -103,6 +66,19 @@ position: relative;
     position: relative;
     width: 170px;
     margin: 0 auto 50px;
+}
+
+#btn-submit {
+background-color: #E00000;
+color: #FFFFFF;
+padding: 16px 40px;
+text-transform: uppercase;
+text-decoration: none;
+text-align: center;
+border: 1px solid red;
+margin: 0 20px 20px 710px;
+font-size: 26px;
+font-family: Helvetica, san-sarif;
 }
 
 /*-- footer */
