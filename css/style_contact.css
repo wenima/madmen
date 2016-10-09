@@ -74,14 +74,20 @@ position: relative;
   margin-top: 70px;
 }
 
-/* Main */
+/* Main Form*/
 
 .main {
   background-color: #3A3A3A;
+}
+
+.main label {
   color: #fff;
+  font-size: 32px;
+  font-weight: lighter;
 }
 
 .main h2 {
+  color: #fff;
   font-size: 46px;
   margin-top 10px;
   font-weight: 300;
@@ -96,14 +102,7 @@ position: relative;
     height: 2px;
     position: relative;
     width: 170px;
-    margin: 0 auto;
-}
-
-.main p {
-  margin: 20px 20px;
-  font-size: 24px;
-  font-weight: lighter;
-  text-align: left;
+    margin: 0 auto 50px;
 }
 
 /*-- footer */
