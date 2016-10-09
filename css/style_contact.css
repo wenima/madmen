@@ -1,0 +1,120 @@
+html, body {
+  background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+/* Header */
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  background-color: #2D2D2D;
+  margin: 0;
+  /*height: 200px;*/
+}
+
+.header .highlight {
+    color: #fff;
+  }
+
+.header ul {
+    color: #fff;
+    display: block;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header li {
+    color: #878787;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+#sitenav li {
+  padding: 20px 10px;
+}
+
+#socialnav li {
+  padding: 10px 5px;
+}
+
+/* Jumbotron */
+#about {
+background: url('http://i.imgur.com/Y8RMIt3.png') center center;
+background-repeat: no-repeat;
+background-size: 110%;
+margin: 20px;
+height: 250vh;
+position: relative;
+}
+
+#submit {
+    width: 500px;
+    height: 200px;
+    border: 7px solid black;
+    background: url('http://i.imgur.com/Y8RMIt3.png');
+    background-attachment: fixed;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+#submit h2 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+/* Main */
+
+.main {
+  background-color: #3A3A3A;
+  color: #fff;
+}
+
+.main h2 {
+  font-size: 46px;
+  margin-top 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main h2:after {
+    background: none repeat scroll 0 0 #fff;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.main p {
+  margin: 20px 20px;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+/*-- footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer h6 {
+  font-size: 20px;
+  font-weight: lighter;
+}
