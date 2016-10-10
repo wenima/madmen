@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:bold' rel='stylesheet' type='text/css'/>
     <link href='https://fonts.googleapis.com/css?family=Helvetica:bold,light' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="./css/style.css">
@@ -9,46 +9,65 @@
   <body>
 
        <!-- Header -->
-  <div class="header">
-        <div class="container">
-            <div class='row'>
+    <div class='container-fluid'>
+        <div class="header">
+            <div class="container">
+                <div class='row'>
                 <!-- Nav pulled left-->
-                <div class='col-md-6'>
-                    <ul class='nav navbar-nav navbar-left' id='sitenav'>
-                        <li class='highlight'>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                     </ul>
-             	</div>
+                    <div class='col-md-6'>
+                        <ul class='nav navbar-nav navbar-left' id='sitenav'>
+                            <li class='highlight'>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+             	      </div>
                  <!-- social media links pulled right -->
-                 <div class='col-md-6'>
-                   <ul 'nav navbar-nav pull-right' id='socialnav'>
-                     <li><img src='http://i.imgur.com/JcZxi95.png'></li>
-                     <li><img src='http://i.imgur.com/Ns9jkxO.png'></li>
-                     <li><img src='http://i.imgur.com/tGjv8U7.png'></li>
-                     <li><img src='http://i.imgur.com/vpf1gGT.png'></li>
+                    <div class='col-md-6'>
+                        <ul 'nav navbar-nav pull-right' id='socialnav'>
+                            <li><a href='#'><img src='http://i.imgur.com/JcZxi95.png'></a></li>
+                            <li><a href='#'><img src='http://i.imgur.com/Ns9jkxO.png'></a></li>
+                            <li><a href='#'><img src='http://i.imgur.com/tGjv8U7.png'></a></li>
+                            <li><a href='#'><img src='http://i.imgur.com/vpf1gGT.png'></a></li>
+                        </ul>
+              	     </div>
+                 </div>
 
-              	</div>
-            </div>
-
-        </div>
-      </div>
+             </div>
+         </div>
+     </div>
 
   <!-- Main -->
-      <div class="jumbotron">
-        <div class="container">
-          <div class='row'>
-            <div class='col-md-3'>
-              <div class='main'>
 
-              </div>
+  <div class="jumbotron">
+      <div class="container-fluid">
+        <div class='row'>
+            <div class='col-md-4'>
+                <div class="main">
+                    <div class='main-text'>
+                    <h2>Mad Men</h2>
+                    <p><span>Mad Men</span> may not be the most exciting show on TV but it is the best written. Novelistic, character-driven, plot-adverse with an umatched view of pacing. We have gathered below the Top 3 Quotes of Mad Men.<br><br>
+                        Head over to the Contact page and leave us a message and submit your own favorite quote.
+                    </p>
+                </div>
+
+                </div>
             </div>
-          </div>
-
         </div>
-      </div>
+              <!-- Content in translucent div
+            <h1>
+              Best Mad Men Episodes
+            </h1>
+            <p>
+             <b>Mad Men</b> may not be the most exciting show on TV but it is the best written. Novelistic, character-driven, plot-adverse with an umatched view of pacing. See below for the top 5 Episodes of Mad Men.
+            </p>
 
-  <!-- Cat Pictures -->
+            <a href="#" class="btn-main">More</a>
+            -->
+
+      </div>
+  </div>
+
+  <!-- MadMen Pictures -->
       <div class="supporting">
         <div class="container">
           <div class='row'>
@@ -80,11 +99,13 @@
         </div>
       </div>
 
-  <!-- Footer -->
-      <div class="footer">
-        <div class="container">
-
-        </div>
-      </div>
+      <!-- Footer -->
+          <div class="container-fluid">
+            <div class="footer">
+              <div class='row'>
+                <h6>Copyright 2016 &copy; Mad about Mad Men, wwddd@scdp.com</h6>
+              </div>
+            </div>
+          </div>
   </body>
 </html>

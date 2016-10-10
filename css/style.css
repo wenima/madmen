@@ -12,7 +12,7 @@ html, body {
 
 .header {
   background-color: #2D2D2D;
-  height: 200px;
+  height: 90px;
 }
 
 .header .highlight {
@@ -50,15 +50,46 @@ html, body {
 
 /* Main */
 .jumbotron {
-background: url() center center;
-background-size: cover;
-height: 600px;
-text-align: center;
+background: url('http://i.imgur.com/25MQpC8.jpg') center center;
+background-repeat: no-repeat;
+background-size: 97.5%;
+margin: 0;
+height: 100vh;
 }
 
 .main {
-color: #FFFFFF;
-height: 600px;
+    color:#fff;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.7);
+    padding:0px 25px 0px 25px;
+    margin-top: -58px;
+}
+
+.main-text h2 {
+  font-size: 46px;
+  margin-top: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main-text h2:after {
+    background: none repeat scroll 0 0 #fff;
+    bottom: -10px;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.main-text p {
+    padding-top:10%;
+    white-space: normal;
+}
+
+.main span {
+    font-weight: bold;
 }
 
 .btn {
@@ -86,8 +117,15 @@ height: 600px;
 
 }
 
+/*-- footer */
 .footer {
   background-color: #333;
   color: #fff;
-  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer h6 {
+  font-size: 20px;
+  font-weight: lighter;
 }
