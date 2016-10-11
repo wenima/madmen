@@ -11,20 +11,13 @@ Download the source code with the following code as outlined below.
 In the command line, run the following command to clone the repo
 
 ```
-$ git clone git://github.com/SpringSource/spring-data-graph-examples.git
+$ git clone git://github.com/wenima/madmen.git
 ```
 
-### And coding style tests
+### Visit the Website
 
-Explain what these tests test and why
+Follow this [link](https://murmuring-shore-16506.herokuapp.com/index.html)
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -36,9 +29,6 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Author
 
