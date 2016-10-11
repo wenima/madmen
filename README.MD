@@ -54,3 +54,7 @@ List of things I'm unhappy with in the project but did not have enough time/skil
 * using elements to be buttons which are [not buttons](http://www.karlgroves.com/2013/05/14/links-are-not-buttons-neither-are-divs-and-spans/)
 * spent a lot of time trying to figure out the underling in the h2 headers when apparently a simple <hr> would have done the trick
 * didn't finish the carousel/slider to make it work and be styled like the mockup
+
+##Observations
+
+* the page 'contact' in the mockup is the only page where the footer has no gap to the element above. I was not sure if this was designed this way or not.
